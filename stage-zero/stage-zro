@@ -1,0 +1,59 @@
+#Team name from two codons AAU and AAC
+team_name = "Team Asparagin"
+#The \n symbol is used to create a new line
+print(f"List of {team_name} Members and their corresponding details \n")
+team_members_details= (
+    ("Lateefat Shuaib", "Lateefat", "ayomidelateefat23@gmail.com", "Volunteering", "Nigeria", "Plant Pathology", "Python"),
+    ("Kendra Vilfort", "Kendra", "kendravedu@gmail.com", "Art", "USA", "Molecular Biology", "Python"),
+    ("Pelumi  Okunrounmu ", "Akinsete", "pelumiokuns@gmail.com", "Poetry", "Nigeria", "Molecular Biology", "Python"),
+    ("Bamidele Iyoha", "Bamidele", "bamideleiyoha@gmail.com", "Art", "UK", "Biomedical Science", "Python"),
+    ("Damilola Ogungbemi", "Dami_O", "ogungbemidamilolae@gmail.com", "Writing", "UK", "Biotechnology", "Python")
+)
+#The following line of codes will print the details of each memeber index
+print("Team Member 1")
+print("Name:", team_members_details[0][0])
+print("Slack Username:", team_members_details[0][1])
+print("Email:", team_members_details[0][2])
+print("Hobby:", team_members_details[0][3])
+print("Country:", team_members_details[0][4])
+print("Discipline:", team_members_details[0][5])
+print("Preferred Programming Language:", team_members_details[0][6], "\n") 
+
+print("Team Member 2")
+print("Name:", team_members_details[1][0])
+print("Slack Username:", team_members_details[1][1])
+print("Email:", team_members_details[1][2])
+print("Hobby:", team_members_details[1][3])
+print("Country:", team_members_details[1][4])
+print("Discipline:", team_members_details[1][5])
+print("Preferred Programming Language:", team_members_details[1][6], "\n") 
+
+
+print("Team Member 3")
+print("Name:", team_members_details[2][0])
+print("Slack Username:", team_members_details[2][1])
+print("Email:", team_members_details[2][2])
+print("Hobby:", team_members_details[2][3])
+print("Country:", team_members_details[2][4])
+print("Discipline:", team_members_details[2][5])
+print("Preferred Programming Language:", team_members_details[2][6],"\n") 
+
+print("Team Member 4")
+print("Name:", team_members_details[3][0])
+print("Slack Username:", team_members_details[3][1])
+print("Email:", team_members_details[3][2])
+print("Hobby:", team_members_details[3][3])
+print("Country:", team_members_details[3][4])
+print("Discipline:", team_members_details[3][5])
+print("Preferred Programming Language:", team_members_details[3][6], "\n") 
+
+
+print("Team Member 5")
+print("Name:", team_members_details[4][0])
+print("Slack Username:", team_members_details[4][1])
+print("Email:", team_members_details[4][2])
+print("Hobby:", team_members_details[4][3])
+print("Country:", team_members_details[4][4])
+print("Discipline:", team_members_details[4][5])
+print("Preferred Programming Language:", team_members_details[4][6]) 
+
