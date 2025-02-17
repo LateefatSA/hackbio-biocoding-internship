@@ -14,8 +14,6 @@ dna_seq = dna.replace("\n", "") #to remove the new lines in the dna sequence
 print(f"\nThe DNA sequence of Trichoderma asperellum is: \n{dna_seq}")
 
 #to translate to protein
-
-
 DNA_Codons = {
     # 'M' - START, '*' - STOP
     "GCT": "A", "GCC": "A", "GCA": "A", "GCG": "A",
@@ -55,15 +53,16 @@ def logistic_growth(initial_population, max_population, growth_rate, time, t_lag
         population = max_population / (1 + (2.71828 ** (-growth_rate*(hour - t_lag))))
         print(f"Hour {hour + 1}: Population = {population:.2f}")
     return population
-
-
-
 print("Task 2 \n ")
 logistic_growth(0,100,1.5,20, 10)
 
 
+#Task 3: 
 
- #Task 4 - Calculate the hamming distance
+
+
+
+#Task 4 - Calculate the hamming distance
 print(f"\nTask 4: Calculating the Hammind Distance")
 slack_username = "AS-Lateefat"
 twitter_handle = "SA_Lateefat"
@@ -76,11 +75,6 @@ def hamming_distance(slack_username, twitter_handle):
 
 print(f'The hamming distance between the Slack Username and the Twitter handle is: {hamming_distance(slack_username, twitter_handle)}')
 
-'''
-Link to Members Github
-Lateefat Shuaib: https://github.com/LateefatSA/hackbio-biocoding-internship/
-Pelumi: https://github.com/Akinsete07/Hackbio_Biocoding_Internship.git
-Damilola: https://github.com/DamilolaeO/hackbio-biocoding-internship
-'''
+
 
 
